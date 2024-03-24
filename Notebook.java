@@ -78,6 +78,7 @@ public class Notebook {
         return результат;
     }
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // Создаем несколько ноутбуков
         Notebook ноутбук1 = new Notebook("Модель 1", 8, 512, "Windows", "Черный");
